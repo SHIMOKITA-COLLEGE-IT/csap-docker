@@ -32,4 +32,4 @@ jobs:
       - name: "Set up Cloud SDK"
         uses: "google-github-actions/setup-gcloud@v1"
 
-      - run: gcloud builds submit --tag $IMAGE
+      - run: gcloud builds submit --tag $IMAGE:${{ github.sha }}
