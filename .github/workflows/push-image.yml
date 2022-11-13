@@ -5,8 +5,8 @@ on:
   - pull_request
 
 env:
-  PROJECT_ID: college-app-366823
-  REGION: asia-northeast1
+  GCP_PROJECT_ID: college-app-366823
+  GCP_REGION: asia-northeast1
   IMAGE: gcr.io/college-app-366823/csap
   GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
   INSTANCE_CONNECTION_NAME: college-app-366823:asia-northeast1:college-app
